@@ -1,4 +1,11 @@
 DwollaSampleRailsApp::Application.routes.draw do
+  root to: 'oauth#begin'
+
+  get "transactions/send"
+
+  get "oauth/begin"
+  get "oauth/return"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

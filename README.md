@@ -7,7 +7,12 @@ This barebones Rails app demonstrates usage of the [`dwolla-ruby`](https://githu
 
 ## Installation
 
-Just run `bundle install` to install dependencies.
+1. Run `bundle install` to install dependencies.
+2. Generate Dwolla Application credentials [here](https://www.dwolla.com/applications/create).
+3. `export` your key and secret as environment variables:
+
+<code>export DWOLLA_APP_KEY=tTQwUwrVeTlwp+XrRR9ZkLOqMmFrC743eRRCWefOaoP0HEdzXO</code><br>
+<code>export DWOLLA_APP_SECRET=GtRe0p/Vmd2BBb5P94d2EAXXCszWFp+Jcap5unY/RhZw83XeqO</code>
 
 ## Giving it a spin
 

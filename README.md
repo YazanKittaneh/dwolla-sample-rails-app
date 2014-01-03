@@ -5,6 +5,8 @@ dwolla-sample-rails-app
 
 This barebones Rails app demonstrates usage of the [`dwolla-ruby`](https://github.com/Dwolla/dwolla-ruby) gem.  Currently, it implements OAuth and the Transactions.Send endpoint as an example of how an application would accept payments with Dwolla.  We intend to grow this into a full demo of all the Dwolla API's functionality.
 
+For a walkthrough of this demo, watch this [screencast](http://www.youtube.com/watch?v=6vYXPL15-as).
+
 ## Installation
 
 1. Run `bundle install` to install dependencies.
